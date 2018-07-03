@@ -5,7 +5,7 @@ import codecs
 import requests
 import os
 import time
-from pyquery import PyQuery as py
+from pyquery import PyQuery as pq
 
 
 # git操作 推送到远程repo
@@ -74,4 +74,4 @@ def job():
 if __name__ == '__main__':
     while True:
         job()
-        time.sleep(7* 24 * 60 * 60)
+        #time.sleep(7* 24 * 60 * 60)
