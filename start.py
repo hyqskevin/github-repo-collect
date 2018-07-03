@@ -5,7 +5,7 @@ import codecs
 import requests
 import os
 import time
-from pyquery import PyQuery as p
+from pyquery import PyQuery as py
 
 
 # git操作 推送到远程repo
